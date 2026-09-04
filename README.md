@@ -14,6 +14,10 @@ C# .NET Framework 3.5 class library with SQLServer and SQLite wrappers for conne
 
 Open `VaderConsulting.Database.csproj` in Visual Studio 2013 or later (ToolsVersion 12.0). There is no `.sln` in this folder. Add a reference to System.Data.SQLite if you compile `SQLite.cs`; it is not listed in the `.csproj`.
 
+## Requirements
+
+- Visual Studio 2013 or later, .NET Framework 3.5
+
 ## Attribution and provenance
 
 Working copy from Dave Robinson's OneDrive Historical Dev folder `VaderConsulting.Database`. Assembly title/product `VaderConsulting.Database`; copyright `Copyright ©  2015`; company empty. Namespace `VaderConsulting.Database`. `packages.config` lists AsyncBridge 0.1.1 (not referenced by the `.csproj`). `App.config` has leftover Entity Framework 6 LocalDB section, not referenced by the project.
